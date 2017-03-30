@@ -98,7 +98,7 @@ body {
   overflow-x: scroll;
 }
 .nav {
-  width: 107%;
+  width: 215%;
   height: 0.71rem;
   overflow-x: auto;
   display: flex;
@@ -107,6 +107,7 @@ body {
 .nav a {
   display: flex;
   align-items: center;
+  text-align: ccenter;
 }
 .nav a:hover {
   color: #26AEA4;
@@ -408,7 +409,8 @@ body {
 .list4-other {
   display: flex;
   flex-wrap: wrap ;
-  margin: 0.1rem 0.05rem 0.46rem 0.07rem;
+  margin: 0.1rem 0.05rem 0 0.07rem;
+  padding-bottom: 0.46rem;
   justify-content: space-between;
 }
 .list4-other a {
